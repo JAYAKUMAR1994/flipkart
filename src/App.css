@@ -1,0 +1,154 @@
+
+
+.Parrent-NavBar{
+background-color: aqua;
+height:10vh;
+display: flex;
+}
+.left{
+  flex-grow: 1;
+  display: flex;
+  background-color: #2874f0;
+  gap:5px;
+}
+
+
+.Circle{
+  border-radius: 20px 20px;
+  flex-grow: 1;
+  }
+
+.container-Name{
+  flex-grow: 3;
+  display: flex;
+  justify-items: right;
+  align-items: center;
+  
+}
+.container-Name *{
+  color: white;
+  text-decoration:none
+}
+
+.container-Name h5{
+  margin-left: 40px;
+} 
+.right{
+  flex-grow: 3;
+  background-color: #2874f0;
+  color: #f0f0f0;
+}
+
+.Container-NavBar{
+  height:10vh;
+  margin-top: 0px;
+  margin-right: 0px;
+  flex-grow: 4;
+  display:flex;
+  background-color: #2874f0;
+  font-size:24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  text-decoration:none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Container-NavBar *{
+  text-decoration:none;
+}
+.container-SideBar{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+ 
+}
+.container-SideBar *{
+  text-decoration:none;
+}
+.Parrent-SideBar{
+  display:flex;
+  width:100vw;
+}
+.child1{
+  flex-grow: 1;
+  background-color: rosybrown;
+  
+}
+.child2{
+  flex-grow: 16;
+  background-color: blanchedalmond;
+}
+.container-Mobile{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap:10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.Parrent-Mobile{
+  border: 1px solid black;
+  border-radius: 30px 30px 0px 0px;
+}
+.container-button{
+  margin-right: 10px; 
+}
+
+.home{
+  margin-right: 30px;
+  color: white;
+  font-style: italic;
+}
+.about{
+  margin-right: 30px;
+  color: white;
+  font-style: italic;
+}
+
+.cart{
+  margin-right: 10px;
+  color: white;
+  font-style: italic;
+  position: relative;
+}
+.cart-circle{
+  border-radius: 50% 50%;
+  position: absolute;
+  top:0px;
+  right:0px;
+  height:30px;
+  width: 30px;
+  color: #2874f0;
+  opacity: 0.7;
+  background-color: white;
+  text-align: center;
+}
+.cart-circle:hover{
+  opacity: 1;
+}
+
+.container-Home{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ height: 90vh;
+ 
+}
+
+input[type="text"]{
+  background-color:navajowhite;
+  padding: 3px 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: green;
+}
+.home-button{
+  background-color: blue;
+  color:white;
+}
+
+.container-about{
+  padding-top: 30%;
+}
